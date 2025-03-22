@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retos Básicos</title>
+  <style>  /*Estilos*/
+  
+    /* 1. Resalta los elementos impares */
+    .lista-impares li:nth-child(odd) {
+      background-color: rgb(66, 189, 230);
+    }
+
+    /* 2. Resalta los elementos pares */
+    .lista-pares li:nth-child(even) {
+      background-color: rgb(54, 226, 174);
+    }
+
+    /* 3. Estiliza el primer y último elemento */
+    .lista-primer-ultimo li:first-child {
+      color: rgb(255, 15, 215);
+      font-weight: bold;
+    }
+    .lista-primer-ultimo li:last-child {
+      color: rgb(91, 7, 248);
+      font-weight: bold;
+    }
+
+    /* 4. Selecciona todos los párrafos excepto el primero */
+    .parrafos-ejemplo p:not(:first-child) {
+      color: rgb(127, 233, 65);
+      font-size: larger;
+    }
+
+    /* 5. Aplica un color especial al tercer elemento de una lista */
+    .lista-tercer li:nth-child(3) {
+      color: rgb(255, 0, 0);
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Retos Básicos CSS - Ejemplos</h1>
+
+  <!-- Inciso 1: Elementos impares -->
+  <h2>1. Resalta los Numeros impares</h2>
+  <ul class="lista-impares">
+    <li>Números -  1</li>
+    <li>Números -  2</li>
+    <li>Números -  3</li>
+    <li>Números -  4</li>
+    <li>Números -  5</li>
+  </ul>
+
+  <!-- Inciso 2: Elementos pares -->
+  <h2>2. Resalta los Numeros pares</h2>
+  <ul class="lista-pares">
+    <li>Números -  1</li>
+    <li>Números -  2</li>
+    <li>Números -  3</li>
+    <li>Números -  4</li>
+    <li>Números -  5</li>
+  </ul>
+
+  <!-- Inciso 3: Primer y último elemento -->
+  <h2>3. Estiliza el primer y último Numero</h2>
+  <ul class="lista-primer-ultimo">
+    <li>Números -  1</li>
+    <li>Números -  2</li>
+    <li>Números -  3</li>
+    <li>Números -  4</li>
+    <li>Números -  5</li>
+  </ul>
+
+  <!-- Inciso 4: Selecciona párrafos excepto el primero -->
+  <h2>4. Selecciona todos los párrafos excepto el primero</h2>
+  <div class="parrafos-ejemplo">
+    <p>Números -  1</p>
+    <p>Números -  2</p>
+    <p>Números -  3</p>
+    <p>Números -  4</p>
+    <p>Números -  5</p>
+  </div>
+
+  <!-- Inciso 5: Color especial al tercer elemento -->
+  <h2>5. Aplica un color especial al tercer Numero de una lista</h2>
+  <ul class="lista-tercer">
+    <li>Números -  1</li>
+    <li>Números -  2</li>
+    <li>Números -  3</li>
+    <li>Números -  4</li>
+    <li>Números -  5</li>
+  </ul>
+
+</body>
+</html>
